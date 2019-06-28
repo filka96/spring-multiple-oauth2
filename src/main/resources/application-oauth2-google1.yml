@@ -1,0 +1,11 @@
+application.oauth2.providers.google1:
+  default-filter-processes-url: /login/google1
+  client:
+    clientId: 410126885110-l140dd12t3o3820o22417qh2tboh9sfv.apps.googleusercontent.com
+    clientSecret: T-o6hfQK2e6nZp6mRCOCdOJD
+    accessTokenUri: https://oauth2.googleapis.com/token
+    userAuthorizationUri: https://accounts.google.com/o/oauth2/auth
+    scope:
+      - email
+  resource:
+    user-info-uri: https://openidconnect.googleapis.com/v1/userinfo

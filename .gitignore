@@ -1,0 +1,39 @@
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+classes/
+out/
+
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# Gradle
+######################
+.gradle/
+build/
+
+######################
+# Gradle Wrapper
+######################
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+######################
+# Project Specific
+######################
+
+######################
+# Others
+######################

@@ -1,0 +1,5 @@
+spring.profiles.include:
+  - oauth2-google
+  - oauth2-google1
+  - oauth2-google2
+  - oauth2-google3
